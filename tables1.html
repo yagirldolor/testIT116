@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- browser tab name/title -->
     <title>TABLES</title>
 </head>
 <body>
-    <!-- table element -->
-    <table>
+    <!-- title of the page/table  -->
+    <h1>Pokemon Table</h1>
+    <!-- table element with style attribute to present a table border-->
+    <table style="width: 50%" border="1">
         <!-- table header elements, auto 'bold text' -->
         <thead>
+            <!-- create rows -->
             <tr>
+                <!-- header per column -->
                 <th rowspan="2">Pokemon Name</th>
                 <th rowspan="2">Type</th>
                 <th rowspan="2">Abilities</th>
@@ -20,37 +25,53 @@
             </tr>
         </thead>
         
-            <!-- if tbody has element it is a table -->
+        <!-- if tbody has element it is the content of the table -->
         <tbody>
-            <!-- Pokemon Name -->
+            <!-- 1st Pokemon, each td element represents the rows created above-->
             <tr>
+                <!-- td element to create data for column1 -->
                 <td>Zarude</td>
-                <td>Info 2</td>
-                <td>Info 3</td>
-            </tr>
-                
-            <tr>
-                <td>Dark,Grass</td>
-                <td>Info 2</td>
-                <td>Info 3</td>
-            </tr>
-
-            <tr>
+                <td>Dark</td>
+                <td>Leaf Guard</td>
                 <td>Bug</td>
-                <td>Info 2</td>
-                <td>Info 3</td>
+                <td>Does not Evolve</td>
             </tr>
-
+            <!-- 2nd Pokemon, td element-->
             <tr>
-                <td>Info 1</td>
-                <td>Info 2</td>
-                <td>Info 3</td>
+                <!-- td element to create data for column2 -->
+                <td>Cryogonal</td>
+                <td>Ice</td>
+                <td>Levitate</td>
+                <td>Fire</td>
+                <td>Does not Evolve</td>
             </tr>
-
+            <!-- 3rd Pokemon, td element-->
             <tr>
-                <td>Info 1</td>
-                <td>Info 2</td>
-                <td>Info 3</td>
+                <!-- td element to create data for column3 -->
+                <td>Happiny</td>
+                <td>Normal</td>
+                <td>Natural Cure</td>
+                <td>Fighting</td>
+                <td>Blissey</td>
+
+            </tr>
+            <!-- 4th Pokemon, td element -->
+            <tr>
+                <!-- td element to create data for column4 -->
+                <td>Delcatty</td>
+                <td>Normal</td>
+                <td>Cute Charm</td>
+                <td>Fighting</td>
+                <td>Skitty</td>
+            </tr>
+            <!-- 5th Pokemon, td elemenet-->
+            <tr>
+                <!-- td element to create data for column5 -->
+                <td>Voltorb</td>
+                <td>Electric</td>
+                <td>Static</td>
+                <td>Ground</td>
+                <td>Electrode</td>
             </tr>
 
         </tbody>
