@@ -69,7 +69,7 @@
         <form action="/Dolor">
             <input type="checkbox" name="agreeTos" id="agree">
             <label for="agree">I agree to everything</label>
-            
+            <!-- Size readio buttons: small,medium,large -->
             <p>
                 <label for="s">Small:</label>
                 <input type="radio" name="size" id="s" value="s">
@@ -78,7 +78,22 @@
                 <label for="l">Large:</label>
                 <input type="radio" name="size" id="l" value="l">
             </p>
-        
+            
+            <!-- Combo box for colors-->
+            <p>
+                <!-- Label for combo box -->
+                <label for="colors">What Is Your Favorite Color?</label>
+                <!-- combo box element is 'select' -->
+                <select name="colors" id="colors">
+                    <!-- options for combo box -->
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                </select>
+            </p>
+
+            
+            <button>Dolor</button>
         
         </form>
     </section>
