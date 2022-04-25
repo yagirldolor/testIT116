@@ -98,9 +98,34 @@
                 <!-- scrollbar element, type range for value between min and max -->
                 <input type="range" id="sbar" min="5" max="20" name="scrollbar">
             </p>
-            
+            <!-- textarea for request text box -->
+            <p>
+                <label for="request">Type In Special Request</label>
+                <!-- textarea element = free form text -->
+                <textarea id="request" name="textArea" rows="15" cols="15" placeholder="Type Here!"></textarea>
+            </p>
+            <!-- button for this section -->
             <button>Dolor</button>
-        
+        </form>
+    </section>
+    <!-- Section for Validations -->
+    <section>
+        <form action="bananers">
+            <!-- Label for textBox -->
+            <label for="dolor">TextBox</label>
+            <!-- teextBox required field -->
+            <input type="text" name="textBox" id="dolor" required placeholder="Username">
+
+            <!-- Label for Password -->
+            <label for="password"></label>
+             <!-- textBox to input text -->
+             <input typ="text" name="pw" id="password" minlength="5" maxlength="20" placeholder="Password">
+
+             <!-- email element, looks like textbox but with email requirements -->
+             <p>
+                <input type="email" required placeholder="Email Address">
+             </p>
+            <button type="submit">Validation Button</button>
         </form>
     </section>
 </body>
