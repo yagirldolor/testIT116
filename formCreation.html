@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Creation</title>
+</head>
+<body>
+    <h1>Please fill out the form below:</h1>
+    <form action="/dollar">
+        <!-- First Name Label and TextBox -->
+        <p>
+            <!-- FN Label -->
+            <label for="fn">First Name:</label>
+            <!-- txtBox for fn text -->
+            <input type="text" id="fn" name="firstname" required placeholder="First Name">
+        </p>
+        <!-- Last Name Label and Text Box -->
+        <p>
+            <!-- LN Label -->
+            <label for="ln">Last Name:</label>
+            <!-- textBox for ln text -->
+            <input type="text" id="ln" name="lastname" required placeholder="Last Name">
+        </p>
+        <!-- combo box for food list -->
+        <p>
+            <!-- Label for combo box -->
+            <label for="food">What food would you like to eat?</label>
+            <!-- Combo box with food options -->
+            <select name="foodd" id="food">
+                <option>Adobo</option>
+                <option>Lumpia</option>
+                <option>Sinigang</option>
+                <option>Itlog</option>
+            </select>
+        </p>
+        <!-- allergies block -->
+        <p>
+            <!-- label asking for allergies -->
+            <label for="aller">Do you have any allergies?</label>
+            <!-- textbox for allergies -->
+            <textarea name="allergies" id="aller" rows="10" cols="20" placeholder="List any allergies" maxlength="200"></textarea>
+        </p>
+        <!-- submit button -->
+        <p>
+            <button type="submit">Send</button>
+        </p>
+
+    </form>
+</body>
+</html>
