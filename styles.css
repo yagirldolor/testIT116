@@ -1,0 +1,22 @@
+/* CSS Page for index.html */
+
+/* all h2 tag are this style */
+h2{
+    color: rgb(12, 114, 12)   
+}
+
+/* h1 style */
+h1{
+
+}
+
+/* rules element selector for button */
+button{
+    color: rgb(31, 215, 31);
+    background-color: rgb(14, 52, 10);
+}
+
+/* paragraph styles */
+p{
+    color: purple;
+}
