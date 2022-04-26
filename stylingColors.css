@@ -1,0 +1,24 @@
+/* CSS styling sheet */
+
+/* h1 text to green */
+h1{
+    color: rgba(0, 128, 0, 0.768);
+}
+
+/* h2 text to purple */
+h2{
+    color: rgba(128, 0, 128, 0.683);
+}
+
+/* paragraph text to pink and background green */
+p{
+    color: rgb(242, 90, 207);
+    background-color:rgba(167, 202, 167, 0.768);
+    display: inline;
+}
+
+/* button white text and blue background */
+button{
+    color: white;
+    background-color: rgb(60, 60, 177);
+}
