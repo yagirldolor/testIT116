@@ -37,3 +37,13 @@ h1,h2{
     font-style: italic;
     color: rgba(91, 129, 123, 0.907);
 }
+
+/* parent class */
+.post a{
+    color: rgba(194, 94, 251, 0.924);
+}
+
+/* > descendent selector */
+footer > a{
+    color: orange;
+}
