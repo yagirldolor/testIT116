@@ -1,0 +1,39 @@
+/* universal selector is star/asterick to select whole page */
+/* *{
+    color: pink;
+    background-color: rgb(131, 151, 131);
+} */
+*{
+    color: rgba(93, 67, 11, 0.924);
+    font-weight: bold;
+}
+
+/* styling of body */
+body{
+    background-color: beige;
+    font-weight: bold;
+}
+
+/* styling of all buttons */
+button{
+    font-size: 30px;
+    
+}
+
+/* styling of multiple header tags */
+h1,h2{
+    color: rgba(88, 102, 88, 0.907);
+}
+
+/* # for styling id */
+#signup{
+    background-color: rgb(199, 188, 162);
+    color: black;
+    font-weight: bold;
+}
+
+/* . for styling class */
+.tag{
+    font-style: italic;
+    color: rgba(91, 129, 123, 0.907);
+}
