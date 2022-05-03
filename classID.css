@@ -1,34 +1,35 @@
 /* class styling */
 
+/* class styling for crimson objects */
 .crims{
     color: crimson;
 }
-
+/* class styling for green objects */
 .green{
     color: green;
 }
-
+/* class styling for Maize objects */
 .yellow{
     color: #F1BE48;
 }
-
+/* class styling for red objects */
 .red{
     color: red;
 }
-
+/* class syling for burnt orange objects */
 .orange{
     color: #cc5500;
 }
-
+/* make ordered list bold */
 ol{
     font-weight: bold;
 }
-
+/* id styling for yes button */
 #yes{
     background-color: green;
     color: white;
 }
-
+/* id styling for no button */
 #no{
     background-color: red;
     color: white;
