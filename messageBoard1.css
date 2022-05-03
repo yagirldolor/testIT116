@@ -47,3 +47,31 @@ h1,h2{
 footer > a{
     color: orange;
 }
+
+/* change anchor tag to pink; anything that says 'google' */
+a[href*="google"]{
+    color: rgb(243, 186, 196);
+}
+
+/* pseudo classes */
+button:hover{
+    background-color: red;
+    color:aquamarine;
+}
+
+/* nested pseudo class */
+.post button:active{
+    background-color: black;
+    color: white;
+
+}
+
+/* pseudo element */
+h2::first-letter{
+    font-size: 50px;
+}
+
+/* pseudo element for paragraph tag */
+p::first-line{
+    color:rgb(111, 166, 111);
+}

@@ -1,0 +1,35 @@
+/* class styling */
+
+.crims{
+    color: crimson;
+}
+
+.green{
+    color: green;
+}
+
+.yellow{
+    color: #F1BE48;
+}
+
+.red{
+    color: red;
+}
+
+.orange{
+    color: #cc5500;
+}
+
+ol{
+    font-weight: bold;
+}
+
+#yes{
+    background-color: green;
+    color: white;
+}
+
+#no{
+    background-color: red;
+    color: white;
+}
