@@ -1,0 +1,24 @@
+/* styling for anchor tags in header */
+header > a{
+    color: rgba(76, 132, 76, 0.918);
+    font-size: 30px;
+}
+
+/* styling of id */
+#schools{
+    color: rgba(76, 132, 76, 0.918);
+}
+
+/* styling of href with /subj characters */
+a[href*="/subj"]{
+    color: rgba(128, 75, 36, 0.875);
+}
+
+/* styling of href with /team characters */
+a[href*="/team"]{
+    color: rgba(84, 75, 255, 0.904);
+}
+/* styling of href with /school characters */
+a[href*="/school"]{
+    color: green;
+}

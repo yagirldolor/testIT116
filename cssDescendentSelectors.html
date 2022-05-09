@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Descendent Selectors</title>
+    <!-- link css to html file using link tag -->
+    <link rel="stylesheet" href="cssDecendentSelectors.css">
 </head>
 <body>
+    <!-- header creates block on top of page -->
     <header>
-        
+        <!-- navigates home, contact, about -->
+        <a href="Home">Home</a>
+        <a href="Contact">Contact</a>
+        <a href="About">About</a>
     </header>
-    <section>
-        <p id="schools">My favorite subjects are <a href="/subj1">programming</a> and <a href="/subj2">math</a>!</p>
-        <p></p>
-        <p></p>
-
-    </section>
+    <!-- paragraph elements for fav subj, teams and schools -->
+    <p>My favorite subjects are <a href="/subj1">Programming</a> and <a href="/subj2">Math</a>!</p>
+    
+    <p id="schools">My favorite teams are <a href="/team1">Seahawks</a> and <a href="/team2">Mariners</a>.</p>
+    
+    <p id="schools">I went to school in the <a href="/school1">Philippines: Academy of Saint John</a> and in <a href="/school2">Renton: Bryn Mawr Elementary Shool</a>.</p>
 </body>
 </html>
