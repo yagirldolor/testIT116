@@ -1,0 +1,146 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Components</title>
+    <!-- link css boostrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <!-- components -->
+        <!-- top nav container -->
+        <div class="container-fluid">
+            <!-- branding called navbar class in the corner of screen -->
+            <a class="navbar-brand" href="https://newyorktimes.com">
+                <!-- use image address to insert pic; alt in case pic is not avail -->
+                <img alt="" src="https://tse4.mm.bing.net/th?id=OIP.4N2nxe_o0PFSL7aM8Mq8SgHaHa&pid=Api&P=0&w=168&h=168" width="30" height="24" class="d-inline-block algin-text-top">
+                Branding
+            </a>
+
+            <!-- button for hamburger menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- to collapse menu -->
+            <div class="collapse navbar-collapse" id="navbar1">
+                <!-- unordered list for menu -->
+                <ul class="navbar-nav d-flex me-auto">
+                    <!-- each item of menu in navbar -->
+                    <li class="nav-item active">
+                        <!-- make item hyperlink -->
+                        <a class="nav-link" href="https://www.google.com/">Google</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.linkedIn.com/">LinkedIn</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.github.com/">GitHub</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="https://www.Amazon.com/">Amazon</a>
+                    </li>
+                    <!-- call nav item drop down -->
+                    <li class="nav-item dropdown">
+                        <!-- reference dropdown class -->
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown">More</a>
+                        <!-- drop down items -->
+                        <ul class="dropdown-menu">
+
+                            <a href="https://www.github.com/" class="dropdown-item">GitHub</a>
+                            
+                            <a href="https://www.github.com/" class="dropdown-item">GitHub</a>
+                            
+                            <a href="https://www.github.com/" class="dropdown-item">GitHub</a>
+                            
+                            <a href="https://www.github.com/" class="dropdown-item">GitHub</a>
+                            
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- search bar and button, d-flex class to align objects in container -->
+                <form action="/testing" class="d-flex">
+                    <!-- me-2 is margin to add space between input and button -->
+                    <input class="form-control me-2" type="search" placeholder="Search">
+
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            
+
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+
+    <!-- Components -->
+    <section>
+        <!-- create container using div with a card=boarder-->
+        <div class="container card">
+            <h1>Bootstrap Components without Classes</h1>
+            <!-- Display header tag using boostrap classes -->
+            <h1 class="display-1 text-center text-success">Components with Bootstrap Class</h1>
+
+            <!-- regular buttons using boostrap classes depending on the type of button -->
+            <button type="button" class="btn btn-success">Green</button>
+            <button type="button" class="btn btn-warning">Yellow</button>
+            <button type="button" class="btn btn-danger">Red</button>
+
+            <!-- outline button using boostrap classes -->
+            <button type="button" class="btn btn-outline-info">Info</button>
+        <br>
+        <hr>
+        <br>
+
+            <!-- header class using h2 -->
+            <h2 class="display-4 text-center text-success">Some Paragraph Text</h2>
+
+            <!-- paragraph tags to show how text works -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur maiores nulla voluptas 
+                quam accusamus quia! Nihil, nulla et nisi tenetur explicabo exercitationem dolorum, quia quam 
+                saepe dolore voluptatibus sit?</p>
+
+        <br>
+        <hr>
+        <br>
+                <!-- Group of header buttons in a div element -->
+                <h3 class="display-4">Group of Header Buttons</h3>
+                <div class="btn-group">
+                    <button class="btn btn-success">One</button>
+                    <button class="btn btn-warning">Two</button>
+                    <button class="btn btn-danger">Three</button>
+
+                </div>
+        <br>
+        <hr>
+        <br>
+                <!-- add image in container -->
+                <img src="https://media.istockphoto.com/vectors/crocodile-vector-cartoon-crocodilian-character-of-green-alligato-vector-id1250253382?k=6&m=1250253382&s=170667a&w=0&h=cNcwaXZXJ8TS2LLU-VluZZJs6ffPpniCMDPTbK-2xio=">
+                
+                <!-- add a blockquote with classes and footer -->
+                <blockquote class="blockquote text-left bg-light">
+                    <!-- mb-2 adds a margin on bottom  -->
+                    <p class="mb-2">
+                        "This is a quote. Dolor loves the color green!"
+                    </p>
+                    <footer class="blockquote-footer">Blah blah</footer>
+                </blockquote>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- javascript bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
