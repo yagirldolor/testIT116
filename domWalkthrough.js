@@ -98,11 +98,62 @@ items[2].style.backgroundColor = 'beige';
 //     console.log(i);
 // }
 
-//i++ increments the array in the header
-for(var i = 0; items.length; i++){
+// //i++ increments the array in the header
+// for(var i = 0; items.length; i++){
 
-    items[i].style.backgroundColor = 'beige';
-    items[i].textContent = 'I changed dis list';
-    items[i].style.color = 'brown';
+//     items[i].style.backgroundColor = 'beige';
+//     items[i].textContent = 'I changed dis list';
+//     items[i].style.color = 'brown';
 
-}
+// }
+
+//ARRAY
+// const myDiamonds = ['Wallet', 'Lippies', 'Mirror', 'Contacts Essentials', 'Wet Wipes', 'Tissue'];
+// for(let i = 0; i <= myDiamonds.length; i++){
+//     //i (prints index), myDiamonds[i] (prints string)
+//     console.log(i, myDiamonds[i]);
+// }
+
+//getElementByTagName
+
+// var li = document.getElementsByTagName('li');
+
+// console.log(li);
+// console.log(li[1]);
+
+// li[1].textContent = 'I changed this again using tagName';
+// li[1].style.fontWeight = 'bold';
+// li[1].style.color = 'green';
+
+// //go through each item in array and change the style 
+// for(var i = 0; i < li.length; i++){
+//     li[i].style.backgroundColor = 'lightgrey';
+//     li[i].textContent = 'Changed Content';
+// }
+
+
+//////////////////////////////
+
+//Query Selector; returns first element ONLY
+//# specifies ID
+var header = document.querySelector('#main-header');
+header.style.borderBottom = 'solid 4px black';
+
+// grab the first textbox using querySelector
+var input = document.querySelector('input');
+//changes the value of the textbox
+input.value = 'Changed the input box text';
+
+// put single quotes inside double quotes
+var submit = document.querySelector("input[type='submit'");
+//varibale was set above to submit button, now we set the submit object value to SEND
+submit.value = "SEND";
+
+//grab first item in tree with class name list-group-item
+var item = document.querySelector('.list-group-item');
+item.style.color = 'red';
+
+//varlastitem returns last element ONLY (:last-child) does this
+
+var lastItem = document.querySelector('.list-group-item:last-child');
+lastItem.style.color = 'red';
