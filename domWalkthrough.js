@@ -134,26 +134,54 @@ items[2].style.backgroundColor = 'beige';
 
 //////////////////////////////
 
-//Query Selector; returns first element ONLY
-//# specifies ID
-var header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4px black';
+// //Query Selector; returns first element ONLY
+// //# specifies ID
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px black';
 
-// grab the first textbox using querySelector
-var input = document.querySelector('input');
-//changes the value of the textbox
-input.value = 'Changed the input box text';
+// // grab the first textbox using querySelector
+// var input = document.querySelector('input');
+// //changes the value of the textbox
+// input.value = 'Changed the input box text';
 
-// put single quotes inside double quotes
-var submit = document.querySelector("input[type='submit'");
-//varibale was set above to submit button, now we set the submit object value to SEND
-submit.value = "SEND";
+// // put single quotes inside double quotes
+// var submit = document.querySelector("input[type='submit'");
+// //varibale was set above to submit button, now we set the submit object value to SEND
+// submit.value = "SEND";
 
-//grab first item in tree with class name list-group-item
-var item = document.querySelector('.list-group-item');
-item.style.color = 'red';
+// //grab first item in tree with class name list-group-item
+// var item = document.querySelector('.list-group-item');
+// item.style.color = 'red';
 
-//varlastitem returns last element ONLY (:last-child) does this
+// //varlastitem returns last element ONLY (:last-child) does this
 
-var lastItem = document.querySelector('.list-group-item:last-child');
-lastItem.style.color = 'red';
+// var lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'red';
+
+
+///////////////////////////////////
+
+//Query Selector All; selects all obj depending on the specified parameter
+
+//create a variable in which we select all elements of the parameter (class, id, etc.)
+var titles = document.querySelectorAll('.title');
+
+console.log(titles);
+
+//to change the first obj from the class title
+titles[0].textContent = "Hello oLor";
+
+//create variable to select all odd numbers from the list
+//nth-child(*specify*) - a number, odd or even, or formula. if specifying a specific number it will count starting by 1
+var odd = document.querySelectorAll('li:nth-child(odd)');
+
+//create variable to select all even numbers from the list
+var even = document.querySelectorAll('li:nth-child(even');
+
+//for loop iterating through both var odd and var even
+//changed style of odd and even items from the list 
+for(var i = 0; i < odd.length; i++){
+    odd[i].style.backgroundColor = 'beige';
+    even[i].style.backgroundColor = 'green';
+    even[i].style.color = 'whitesmoke';
+}
