@@ -160,7 +160,6 @@ items[2].style.backgroundColor = 'beige';
 
 
 ///////////////////////////////////
-
 //Query Selector All; selects all obj depending on the specified parameter
 
 //create a variable in which we select all elements of the parameter (class, id, etc.)
