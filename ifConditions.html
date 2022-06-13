@@ -59,15 +59,91 @@
 
         // }
 
-        const age = prompt("Enter yo age:");
+        // const age = prompt("Enter yo age:");
 
-        if(age < 5){
-            console.log("Your are less than 5, can you read this??");
-        }else if(age < 10){
-            console.log("You're young bruh, go to school.");
-        }else if(age <= 21){
-            console.log("Wow, hello party animal");
+        // if(age < 5){
+        //     console.log("Your are less than 5, can you read this??");
+        // }else if(age < 10){
+        //     console.log("You're young bruh, go to school.");
+        // }else if(age <= 21){
+        //     console.log("Wow, hello party animal");
+        // }else{
+        //     //display this is all conditions fail
+        //     console.log("Last resort if all conditions fail");
+        // }
+
+        //SWITCH STATEMENT: type of selection control mechanism used to allow the value of a variable to change control flow via search and map
+
+        // //declare a variable
+        // const expr = 'Apples';
+
+        // //
+        // switch(expr){
+        //     case 'Oranges':
+        //         console.log("Oranges are $0.50 a pound");
+        //         //break allows us to break out of the switch; it stops more code to execute
+        //         break;
+        //     case 'Watermelon':
+        //         console.log("Watermelos are heavy!");
+        //         break;
+        //     case 'Apples':
+        //         console.log("Hello Apples!");
+        //         break;
+        //     //if none above case statements matches the parameter
+        //     //default keyword
+        //     default:
+        //         console.log("Sorry we are out of you fave fruit!");
+
+        
+        // //
+        // const password = prompt("Please enter a New Password");
+        
+        // //if statement
+        // if(password.length >= 6){
+        //     //nested if condition
+        //     //indexOD returns the position of the first occurence of a value string, returns -1 if value not found, case sensitive
+        //     if(password.indexOf(' ') === -1){
+        //         console.log("Valid Password");
+        //     }else{
+        //         console.log("Password Can't Have Spaces");
+        //     }
+        // }else{
+        //     console.log("Password is too short!");
+        // }
+
+        //////////////////////////////
+        //FUNCTIONS - fundamental building blocks, procedure: takes input and returns output
+
+        //function functioName(argument parameter)
+
+        function singSong(){
+            console.log("DO");
+            console.log("RE");
+            console.log("MI");
         }
+        //call function and it will display the code from the function code
+        singSong();
+
+        function greet(firstName){
+
+            //use back ticks to display placeholders
+            //String Literal
+            console.log(`Hey There, ${firstName}`);
+        }
+
+        //call function to display the above string literal
+        greet('Dolorrr');
+
+        function greet1(firstName, lastName){
+            //[0] will grab the string index ONLY
+            console.log(`Hey there, ${firstName} ${lastName[0]}.`);
+
+        }
+
+        //call function to display the above string literal
+        greet1('Dolor','Eusebio');
+
+        
 
     </script>
 
